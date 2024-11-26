@@ -12,3 +12,11 @@ peut etre les prets (ouvrage preté a qui quelle periode ...)
 event (dedicasse (quelle auteur, durée ...?))
 
 d autres idées ?
+
+
+
+Members :
+
+Zephrod : Valentin LE FESSANT
+ClementCrouan : Clément CROUAN
+CharlieAubourg1 : Charlie AUBOURG
