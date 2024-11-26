@@ -1,6 +1,14 @@
 # projet-node-bin
-HELLO
-HELLO1
-HELLO2
-HELLO3
-HELLO4
+
+# Contexte 
+
+on part sur la bibliotheque du coups
+
+donc une bibliotheque elle a des clients des ouvrages (livres etc...) peut etre des pc et on peux meme manager leur edt avec des journées dedicaces ou autre event
+
+User (client manager employe) auteur/ecrivain
+bibliotheque (ouvrage position nombre ?) 
+peut etre les prets (ouvrage preté a qui quelle periode ...)
+event (dedicasse (quelle auteur, durée ...?))
+
+d autres idées ?
