@@ -15,7 +15,7 @@ d autres idées ?
 
 
 
-# Members :
+# Membres
 
 Zephrod : Valentin LE FESSANT  
 ClementCrouan : Clément CROUAN  
