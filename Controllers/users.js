@@ -37,4 +37,22 @@ module.exports = {
 
     res.sendStatus(nbDeleted ? 204 : 404);
   },
+  activateAccount : async (req, res, next) => {
+    try {
+      console.log(req.params.id)
+      if (!parseInt(req.params.id)) return res.sendStatus(403);
+  
+      const _ = await User.update({activated: true}, {
+        where: {
+          id: parseInt(req.params.id),
+        },
+        //returning: true
+      });
+  
+      res.status(200).json({message: "Account activated"});
+    } catch (err) {
+      console.error(err);
+      res.status(500).json({message: err.message});
+    }
+  }
 };

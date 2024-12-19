@@ -14,4 +14,5 @@ router.patch("/users/:id", checkAuth, userController.update);
 
 router.delete("/users/:id", checkAuth, userController.delete);
 
+router.patch("/users/:id/activate", userController.activateAccount);
 module.exports = router;
