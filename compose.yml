@@ -8,9 +8,10 @@ services:
     working_dir: /app
     command: npm run dev
     ports:
-      - 3000:3000
+      - "${PORT}:${PORT}"
+    env_file:
+      - .env.local
     environment:
-      PORT: ${PORT}
       DATABASE_URL: ${DATABASE_URL}
       JWT_SECRET: ${JWT_SECRET}
 
@@ -18,6 +19,8 @@ services:
     image: mysql:latest
     volumes:
       - db-data:/var/lib/mysql
+    env_file:
+      - .env.local
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
