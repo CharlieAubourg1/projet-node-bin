@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require("sequelize");
-//const connection = require("./db");
+const connection = require("./db");
 
 class Livre extends Model {}
 
