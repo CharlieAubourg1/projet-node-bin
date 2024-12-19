@@ -13,6 +13,27 @@ event (dedicasse (quelle auteur, durée ...?))
   
 d autres idées ?
 
+# A faire et comprehension du sujet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Membres
